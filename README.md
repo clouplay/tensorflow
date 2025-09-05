@@ -24,6 +24,28 @@ for machine learning. It has a comprehensive, flexible ecosystem of
 researchers push the state-of-the-art in ML and developers easily build and
 deploy ML-powered applications.
 
+## 🎵 Turkish Music AI Contributions
+
+This fork includes **Turkish language examples and music AI models** developed by [Gürhan Şen](https://github.com/gurhansen):
+
+- **🎶 Music Classification Model** - AI-powered music genre classification with 10 genres support
+- **🇹🇷 Turkish Tutorials** - Comprehensive Turkish language machine learning tutorials  
+- **📱 Mobile Support** - TensorFlow Lite examples for mobile music AI applications
+- **🚀 ClouSound Integration** - Ready-to-use examples for music streaming platforms
+
+### Quick Start - Music AI
+```python
+from tensorflow.examples.music_classification.music_classifier import MusicClassifier
+
+classifier = MusicClassifier()
+result = classifier.predict_genre('song.wav')
+print(f"Genre: {result['predicted_genre']} ({result['confidence']:.2%})")
+```
+
+**📁 Examples Location:** [`tensorflow/examples/music_classification/`](tensorflow/examples/music_classification/)
+
+**Developer:** Gürhan Şen (@gurhansen) | **Platform:** [ClouSound](https://www.clousound.com)
+
 TensorFlow was originally developed by researchers and engineers working within
 the Machine Intelligence team at Google Brain to conduct research in machine
 learning and neural networks. However, the framework is versatile enough to be
